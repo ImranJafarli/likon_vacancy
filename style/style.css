@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.container{
+    position: relative;
+}
+
+/* Start website name */
+
+.job{
+    border-bottom: 0.5px solid #dee2e6;
+    padding: 24px 0 24px 0;
+    margin: 0 40px 18px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: inline-flex;
+}
+
+.name p{
+    font-size: 18px;
+    display: inline;
+    margin-left: 6px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.name i{
+    background-color: rgba(207, 183, 239, 1);
+    border-radius: 50%;
+    padding: 8px 12px;
+    color: white;
+    font-size: 16px;
+}
+
+.view #eye{
+    color:rgba(207, 183, 239, 1);
+    font-size: 16px;
+    padding-left: 380px;
+    padding-top: 8px;
+}
+.view span {
+    color:rgba(207, 183, 239, 1);
+    padding-left: 10px;
+}
+
+#hrt{
+    color:rgba(207, 183, 239, 1);
+    padding-left: 10px;
+}
+
+#hrt:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* End website name */
+
+/* Start job name */
+
+h1{
+    font-size: 20px;
+    padding-left: 52px;
+    color: black;
+    margin-bottom: 20px;
+}
+.time{
+    border: 1px solid #de7d0b;
+    color: #de7d0b;
+    border-radius: 7px;
+    margin-left: 45px;  
+    margin-bottom: 10px;
+    display: inline-flex;
+    padding: 10px;
+}
+
+.kuryer a{
+    color: rgb(190, 157, 233);
+    padding: 35px;
+}
+
+.kuryer a:hover{
+    color: blue;
+}
+
+/* End job name */
+
+/* Start tabs */
+
+.tabs{
+    position: relative;
+    height: 22px;
+    border-bottom: 1px solid rgb(190, 157, 233);
+    margin: 36px;
+}
+
+.tabs a:hover{
+    color: blue;
+}
+
+.tabs a{
+    text-decoration: none;
+    color: black;
+}
+
+.tabs .tabs_1{
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom: 2px solid #1c0ab1;
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+.tabs_2:hover{
+    text-decoration: underline;
+}
+
+/* End tabs */
+
+/* Start work detail */
+
+h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    margin: 25px;
+}
+
+
+.content ul li{
+    list-style-type: none;
+    margin: 3px;
+    padding: 3px;
+    color: rgb(122, 122, 82);
+}
+
+.content .number{
+    margin: 15px;
+    padding: 10px;
+    color: black;
+}
+/* End work detail */
+
+/* Start tg info */
+.info{
+    display: flex;
+}
+.info p{
+    background: rgba(41,182,246,.05);
+    border-radius: 8px;
+    align-items: center;
+    padding: 18px 16px;
+    margin: 20px;
+    font-weight: 500;
+    -webkit-box-shadow: 0px 6px 5px 0px rgb(10 189 174);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(10,189,174,1);
+    box-shadow: 0px 6px 5px 0px rgb(10 189 174);
+}
+.info i{
+    margin: 21px 19px 0 0;
+    padding: 15px;
+    color: white;
+    background-color: rgb(10 189 174);
+    font-size: 16px;
+    border-radius: 50%; 
+}
+
+.print{
+    margin: 40px;
+}
+
+#f1 {
+    color: #5b5b5b;
+    padding: 0 20px 0 0;
+    font: 14px;
+    font-weight: 600;
+}
+
+#f2 {
+    color: red;
+    padding: 0 20px 0 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+button{
+    border: 14px solid blue;
+    border-radius: 12px;
+    background-color: #1c0ab1;
+    color: white;
+    cursor: pointer;
+}
