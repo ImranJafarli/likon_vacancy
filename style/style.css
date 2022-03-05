@@ -171,14 +171,14 @@ h3{
     margin: 40px;
 }
 
-#f1 {
+.f1 {
     color: #5b5b5b;
     padding: 0 20px 0 0;
     font: 14px;
     font-weight: 600;
 }
 
-#f2 {
+.f2 {
     color: red;
     padding: 0 20px 0 0;
     font-size: 14px;
