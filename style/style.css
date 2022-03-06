@@ -145,38 +145,56 @@ h3{
 .info{
     display: flex;
 }
-.info p{
+
+.info a{
+    color: #0c4dde;;
+}
+
+.info a:hover{
+    text-decoration: none;
+}
+.info p{    
     background: rgba(41,182,246,.05);
     border-radius: 8px;
     align-items: center;
-    padding: 18px 16px;
-    margin: 20px;
+    padding: 18px 11px;
+    margin: 4px;
     font-weight: 500;
     -webkit-box-shadow: 0px 6px 5px 0px rgb(10 189 174);
     -moz-box-shadow: 0px 6px 5px 0px rgba(10,189,174,1);
     box-shadow: 0px 6px 5px 0px rgb(10 189 174);
 }
+
 .info i{
-    margin: 21px 19px 0 0;
-    padding: 15px;
+    margin: 25px 19px 1px 0;
+    padding: 10px;
     color: white;
     background-color: rgb(10 189 174);
     font-size: 16px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .print{
     margin: 40px;
 }
 
-.f1 {
+.print .f1 {
     color: #5b5b5b;
     padding: 0 20px 0 0;
     font: 14px;
     font-weight: 600;
 }
 
-.f2 {
+.print i{
+    color: #5b5b5b;
+    font-size: 20px;
+}
+
+.print #flag{
+    color: red;
+}
+
+.print .f2 {
     color: red;
     padding: 0 20px 0 0;
     font-size: 14px;
